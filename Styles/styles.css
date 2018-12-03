@@ -1,11 +1,13 @@
 * {
  box-sizing: border-box;
 }
+
 body {
   font-family: Arial, sans-serif;
   font-size: 17px;
   color: #444444;
 }
+
 .page-container {
   display: grid;
   position: relative;
@@ -107,6 +109,7 @@ h5 {
   grid-column: 1 / span 4;
   justify-content: space-around;
 }
+
 .box {
   color: white;
   padding: 1rem;
@@ -160,6 +163,7 @@ video {
 blockquote {
   font-size: 30px;
 }
+
 .speaker {
   font-weight: bold;
   font-size: 14px;
