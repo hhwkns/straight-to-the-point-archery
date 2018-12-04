@@ -12,7 +12,7 @@ body {
   display: grid;
   position: relative;
   height: 1200px;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 20% 1fr;
   grid-template-rows: 100px 1fr 1fr 1fr;
   grid-gap: 5px 5px;
 }
@@ -170,7 +170,7 @@ blockquote {
 }
 
 .footer {
-  background-image: url("../images/footer-image.jpg");
+  background-image: url("../Images/footer-image.jpg");
   background-color: #1b447f;
   grid-column: 1 / span 4;
   grid-row:  4;
@@ -193,8 +193,10 @@ blockquote {
 .footer-para {
   margin-left: 2rem;
   padding: 1rem;
-  width: 400px;
+  width: 350px;
+  overflow-wrap: break-word;
   font-kerning: normal;
+
 }
 
 .footer-copy {
